@@ -1,0 +1,6 @@
+[submodule "client"]
+	path = client
+	url = https://github.com/ctfguide-tech/CTFGuideReact.git
+[submodule "api"]
+	path = api
+	url = https://github.com/ctfguide-tech/CTFGuideAPI.git
