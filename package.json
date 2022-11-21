@@ -1,7 +1,7 @@
 {
   "name": "CTFDev",
   "dependencies": {
-    "concurrently": "^7.5.0"
+    "concurrently": "^7.6.0"
   },
   "scripts": {
     "server": "cd api && npm i && npm run dev",
