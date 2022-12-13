@@ -4,7 +4,7 @@
     "concurrently": "^7.6.0"
   },
   "scripts": {
-    "server": "cd api && npm i && npm run dev",
+    "server": "cd api &&  npm i && apidoc -i src -o public/apidoc && npm run dev",
     "client": "cd client && npm i && npm start",
     "dev": "concurrently \"npm run server\" \"npm run client\" -n server, client"
   }
